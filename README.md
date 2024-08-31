@@ -13,7 +13,7 @@ This project is an Express.js setup with JWT authentication, User CRUD operation
 ## Project Structure
 
 ```
-project-root/
+express-setup-v1/
 ├── app/
 │   ├── controllers/
 │   ├── middleware/
@@ -30,9 +30,9 @@ project-root/
 
 ## Prerequisites
 
-- Node.js (v14+)
+- Node.js (v20+)
 - npm
-- MySQL or PostgreSQL
+- MySQL
 
 ## Installation
 
@@ -136,4 +136,4 @@ http://localhost:3000/docs
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
