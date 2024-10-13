@@ -4,11 +4,13 @@ const swaggerSetup = require("./config/swagger");
 const router = require("./routes/api");
 const path = require("path");
 const cors = require("cors");
+const helmet = require("helmet");
 
 dotenv.config();
 
 const app = express();
 
+app.use(helmet());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
