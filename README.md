@@ -111,6 +111,11 @@ http://localhost:3000/docs
 
 ## Database Commands
 
+- Create a new model:
+  ```
+  npx sequelize-cli model:generate --name Model --attributes column:type,column:type,column:type
+  ```
+
 - Create a new migration:
 
   ```
